@@ -44,7 +44,7 @@ Follow these steps to set up and run the project locally:
    ```
 4. Run Project
    ```sh
-   npm run start:dev
+   npm run dev
 ## API Endpoints
 
 ### User Routes
@@ -85,7 +85,7 @@ Follow these steps to set up and run the project locally:
    - **Endpoint:** `POST /api/services/slots`
    - **Description:** Add new booking slots for a service.
 
-9. **Check Slot Availabilityt**
+9. **Check Slot Availability**
    - **Endpoint: GET /api/slots/availability
    - **Description: Query available slots with date and serviceId parameters.
 
