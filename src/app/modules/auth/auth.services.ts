@@ -21,7 +21,6 @@ const loginUser = async (payload: { email: string; password: string }) => {
   }
 
   // Destructure user to omit password
-
   const userWithoutPassword = JSON.parse(JSON.stringify(user));
   if (user) {
     delete userWithoutPassword.password;
