@@ -20,7 +20,7 @@ router
 router
   .route('/:id')
   .get(serviceController.getServiceById)
-  .patch(
+  .put(
     auth('admin'),
     validateRequest(ServiceValidation.updateServiceValidation),
     serviceController.updateServiceById,
